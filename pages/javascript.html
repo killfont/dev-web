@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/index/logo-js.png">
+    <link rel="stylesheet" href="../assets/css/javascript.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+
+<body>
+    <header>
+
+
+        <nav id="Haut">
+            <div>
+                <a href="../index.html"><img src="../assets/images/index/logo-accueil.jpg" alt="logo-accueil"></a>
+            </div>
+
+            <h1>
+                <div class="text-fx">Javascript</div>
+            </h1>
+
+            <ul>
+                <li class="css"><a href="../pages/css.html"><img src="../assets/images/index/logo-css.png"
+                            alt="logo-css"></a>
+                </li>
+                <li><a href="../pages/html.html"><img src="../assets/images/index/logo-html.png" alt="logo-html"></a>
+                </li>
+                <li><a href="#"><img src="../assets/images/index/logo-js.png" alt="logo-js" class="link-active"></a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+
+
+    <main>
+        <section class="center">
+            <h1 id="titreNoir">Javascript : définition simple et applications pratiques </h1>
+            <article>
+                <h2>Définition du mot Javascript</h2>
+                <p>JavaScript désigne un langage de développement informatique, et plus précisément un langage de script
+                    orienté objet. On le retrouve principalement dans les pages Internet. Il permet, entre autres,
+                    d'introduire sur une page web ou HTML des petites animations ou des effets.</p>
+                <p>
+                    Créé en 1995 par Brendan Eich, en même temps que la technologie Java, le langage JavaScript se
+                    distingue des langages serveurs par le fait que l'exécution des tâches est opérée par le navigateur
+                    lui-même, sur l'ordinateur de l'utilisateur, et non sur le serveur web. Il s'active donc
+                    généralement sur le poste client plutôt que côté serveur.
+                </p>
+            </article>
+            <div id="paragrapheH">
+                <article class="paragrapheH-C">
+                    <h2>Quels sont les principaux frameworks JavaScript ?</h2>
+                    <p>Il existe de nombreux frameworks JavaScript orientés vers les interfaces web (ou "orientés
+                        client").
+                        Les trois plus connus sont Jquery, AngularJS (qui a été initialement développé par Google) et
+                        React
+                        (qui, lui, est né chez Facebook). Il existe néanmoins quelques infrastructures JavaScript open
+                        source orientées serveur, même si ce langage n'avait pas été conçu dans cette optique au départ.
+                        La
+                        plus célèbre d'entre elles n'est autre que NodeJS.</p>
+                </article>
+                <div class="center">
+                    <img src="../assets/images/javascript/nodeJS.png" alt="nodeJS">
+                </div>
+                <article class="paragrapheH-C">
+                    <h2>Quels sont les principaux usages de JavaScript ?</h2>
+                    <p>Le langage JavaScript est principalement employé pour améliorer l'ergonomie d'un site Internet
+                        et/ou
+                        d'une interface applicative utilisateur. Il sert également à intégrer des effets esthétiques,
+                        toutefois rarement indispensables. Son principal intérêt réside dans son mode de fonctionnement
+                        : le
+                        langage JavaScript offre en effet la possibilité d'exécuter un code sans être contraint de
+                        recharger
+                        une page web. En cela, il joue un rôle dans l'amélioration de la rapidité de chargement des
+                        pages,
+                        un critère d'ergonomie et de référencement de plus en plus important. </p>
+                </article>
+            </div>
+
+            <article>
+                <h2>JavaScript et référencement naturel : où nous en sommes </h2>
+                <p>Pendant longtemps, les robots de crawl des moteurs de recherche, comme Google ou Bing, étaient
+                    incapables de lire les contenus en JS, ce qui posait un problème d'indexation de ces pages. En ce
+                    qui concerne Google, son robot de crawl a longtemps utilisé Chrome 21 pour lire les sites. Or, cette
+                    version est rapidement devenue obsolète, et butait systématiquement sur les contenus codés sous
+                    JavaScript. En 2019, Google a modernisé son crawler pour un modèle "evergreen", c'est-à-dire
+                    toujours synchronisé sur la dernière version de Chrome. Depuis 2019, Google se considère capable de
+                    lire et d'indexer correctement des contenus en JavaScript. Pour autant, les référenceurs sont
+                    incités à rester prudents sur son utilisation. La situation est à peu près identique chez Bing.</p>
+            </article>
+            <article>
+                <h2>Utilisation du JavaScript dans les attaques informatiques</h2>
+                <p>
+                    JavaScript est un langage de programmation de haut niveau et l’un des plus populaires sur le Web.
+                    Presque tous les sites Web d’aujourd’hui sont compatibles JavaScript.
+
+                    Si vous souhaitez travailler avec des cookies, manipuler des gestionnaires d’événements et exécuter
+                    des scripts intersites (XSS), JavaScript est fait pour vous. XSS est l’une des techniques de
+                    piratage les plus populaires lorsqu’il s’agit de compromettre un site Web. Le pirate informatique
+                    cherche habituellement une faille de saisie sur le site Web et, s’il y en a une, il utilise des
+                    scripts pour prendre le contrôle du site Web.
+
+                    Ainsi, si vous êtes un maître du JavaScript, vous pouvez vous assurer que le site Web est
+                    suffisamment sécurisé pour atténuer ou même éliminer les attaques XSS
+                </p>
+            </article>
+            <article>
+                <h2>Qu'est le JavaScript, réellement ?</h2>
+                <h4>Dans le fichier html</h4>
+                <p>On rajoute une ligne pour que le fichier JS soit charger sur cette page</p>
+                <p>On rajoute dans le head cette ligne:
+                    <span class="balise">&lt;script src="scripts/main.js"&gt;&lt;/script&gt;</span>
+                </p>
+                <p>On pourrait la mettre dans le body, pas au début mais si on le met à la fin ça marche mais le mieux
+                    c'est de la mettre dans le head</p>
+                <p>Cette ligne a le même rôle que l'élément <span class="balise">&lt;link&gt;</span> pour le CSS</p>
+                <h4>Dans le fichier JS</h4>
+                <p>tout la synthaxe de javascript, et ce qui fait le lien entre le js et la page html, c'est la ligne
+                    script source dans le head, avec les id, class, dans le html, et notre clique sur un boutton par
+                    exemple, qui va remplir une variable et quand la variable est remplir par quelquechose le code js
+                    s'exécute</p>
+            </article>
+            <article>
+                <h4>Exemple de ce qu'on peut faire</h4>
+                <p>Appuyez sur un de ces bouttons</p>
+                <button id="btnUn">BLEU</button>
+                <button id="btnDeux">VIOLET</button>
+                <button id="btnTrois">VERT</button>
+                <button id="btnQuatre">JAUNE</button>
+                <button id="btnCinq">ORANGE</button>
+                <span>
+                    <button id="btnSix">Annulez</button>
+                </span>
+            </article>
+        </section>
+
+        <a href="#Haut" class="retour" id="fuse">
+            <img src="../assets/images/CSS/fuse.png" alt="">
+        </a>
+    </main>
+
+
+
+    <footer>
+
+        <img src="../assets/images/index/logo-accueil.jpg" alt="logo-accueil">
+        <div>
+            <h2>@Copyright by Killian, Boubakar, Cédric</h2>
+        </div>
+    </footer>
+    <script src="../assets/js/javascript.js"></script>
+
+    <script src="../assets/js/fuse.js"></script>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
